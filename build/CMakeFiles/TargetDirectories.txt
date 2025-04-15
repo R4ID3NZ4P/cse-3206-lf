@@ -1,0 +1,3 @@
+/home/sifatalam/CSE-3206-LF/build/CMakeFiles/shapes.dir
+/home/sifatalam/CSE-3206-LF/build/CMakeFiles/edit_cache.dir
+/home/sifatalam/CSE-3206-LF/build/CMakeFiles/rebuild_cache.dir

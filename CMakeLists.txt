@@ -1,14 +1,14 @@
 cmake_minimum_required(VERSION 3.10)
 set(CMAKE_CXX_STANDARD 20)
-project(GTestu LANGUAGES CXX)
+project(shapes LANGUAGES CXX)
 
 set(GTEST_DIR ${CMAKE_SOURCE_DIR}/../googletest)
 
 include_directories(${GTEST_DIR}/../googletest/googletest/include)
 
 add_executable(${PROJECT_NAME} 
-        test/run_test.cpp
-        src/student.cpp
+        test/test.cpp
+        src/ShapeFactory.cpp
         )
 
 target_link_libraries(${PROJECT_NAME} 
