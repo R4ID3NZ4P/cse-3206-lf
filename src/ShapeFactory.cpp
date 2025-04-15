@@ -5,7 +5,7 @@ void Circle::setRadius(double r) {
 }
 
 double Circle::area() {
-    return (double) 3.1416 * radius;
+    return (double) 3.1416 * radius * radius;
 }
 
 void Square::setLength(double l) {
