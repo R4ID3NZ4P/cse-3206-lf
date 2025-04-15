@@ -1,6 +1,6 @@
 #include "ShapeFactory.h"
 
-Circle::Circle(double r) {
+void Circle::setRadius(double r) {
     radius = r;
 }
 
@@ -8,7 +8,7 @@ double Circle::area() {
     return (double) 3.1416 * radius;
 }
 
-Square::Square(double l) {
+void Square::setLength(double l) {
     length = l;
 }
 
@@ -16,8 +16,11 @@ double Square::area() {
     return length * length;
 }
 
-Rectangle::Rectangle(double l, double w) {
+void Rectangle::setLength(double l) {
     length = l;
+}
+
+void Rectangle::setWidth(double w) {
     width = w;
 }
 

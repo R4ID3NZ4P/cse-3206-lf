@@ -11,7 +11,7 @@ class Circle : public Shape {
 private:
     double radius;
 public:
-    Circle(double);
+    void setRadius(double);
     double area();
 };
 
@@ -19,7 +19,7 @@ class Square : public Shape {
     private:
         double length;
     public:
-        Square(double);
+        void setLength(double);
         double area();
 };
 
@@ -28,7 +28,8 @@ class Rectangle : public Shape {
         double length;
         double width;
     public:
-        Rectangle(double, double);
+        void setLength(double);
+        void setWidth(double);
         double area();
 };
 
