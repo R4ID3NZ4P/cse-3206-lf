@@ -33,6 +33,7 @@ class Rectangle : public Shape {
         double area();
 };
 
-class ShapeFactory : public Shape {
-    
+class ShapeFactory {
+public:
+    Shape* getShape(string);
 };

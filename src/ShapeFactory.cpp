@@ -27,3 +27,11 @@ void Rectangle::setWidth(double w) {
 double Rectangle::area() {
     return length * width;
 }
+
+Shape* ShapeFactory::getShape(string s) {
+    if(s == "Circle") return new Circle();
+    else if(s == "Square") return new Square();
+    else if(s == "Rectangle") return new Rectangle();
+
+    return NULL;
+}
